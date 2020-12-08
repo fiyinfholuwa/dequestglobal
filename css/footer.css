@@ -1,0 +1,261 @@
+@import url('../css/font.css');
+
+html, body{
+	margin: 0%;
+	box-sizing: border-box;
+	overflow-x:hidden;
+	background-color: lightblue;
+}
+
+/*-----------Global classes-------------start---------*/
+
+a{
+	text-decoration: none;
+	text-underline-position: none;
+}
+
+li
+
+.flex-row{
+    display: flex;
+    flex-direction: row;    
+    flex-wrap: wrap;
+}
+/*-----------Global classes-------------end---------*/
+
+/*---------------------------Root--------------------*/
+:root{
+	/*theme color*/
+
+	--text-gray:#3f4954;
+	--bg-color:#0f0f0f;
+	--white:#ffffff;
+	--midnight:#104f55;
+
+	/*gradient-color*/
+
+	--sky:linear-gradient(120deg, #1ac4fd 0%, #2ce9fb 100%);
+}
+
+
+
+/*-----------Navigation styling-------------start---------*/
+
+
+.post-info{
+	font-size: 12px;
+	color: purple;
+	font-family: Abel;
+}
+
+.sliderimg{
+	width: 80%;
+	margin-left: 10%;
+	height: 150px;
+	margin-top: 20px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+.footer-card{
+	height: 30px;
+	width: 40px;
+	border-radius: 15px;
+}
+
+
+
+.post-body{
+	padding: 5px;
+}
+
+
+/*-------------------site-contents--------------------------*/
+.blog-content {
+	margin-top: 50px;
+}
+.post-image{
+	height: 100%;
+	overflow: hidden;
+}
+ .post-image .img{
+ 	width: 100%;
+ 	height: 300px;
+ 	border-radius: 20px;
+ 	margin-top: 30px;
+ }
+
+ .post-image .img:hover{
+ 	transform: scale(1.3);
+ 	transition: all 2s ease;
+ }
+
+ .post-title{
+ 	margin-top: 40px;
+ 	margin-left: 40px;
+ 	padding: 2px;
+ }
+
+ .btn-post{
+ 	width: 70%;
+ 	height: 40px;
+ 	background-color: lightgreen;
+ 	border-radius: 10px;
+ 	color: white;
+ 	margin-top: -20px;
+ }
+ .post-text{
+ 	padding: 10px;
+ }
+
+ .read-more{
+ 	padding-left: 40px;
+ }
+ .info-info{
+ 	font-size: 13px;
+ 	display: block;
+ }
+
+ .pagination{
+ 	margin-left: 40px;
+ }
+
+ .pagination > li > a{
+ 	color: green;
+ }
+
+
+
+
+ /*----------------------------sidebar*/
+
+
+ .category-list  .list-item{
+ 	background-color: purple;
+
+ 	padding: 0.5rem 1.1rem;
+ 	margin: 0.8rem 0;
+ 	border-radius: 3rem;
+ 	list-style: none;
+ 	width: 100%;
+ 	display: flex;
+ 	justify-content: space-between;
+ }
+
+ .category-list  .list-item a{
+ 	text-decoration: none;
+ 	color: black;
+ 	font-size: 14px;
+ 	display: block;
+ }
+
+ .some-text{
+ 	background-color: purple;
+ 	color: white;
+ 	border-radius: 4px;
+ 	
+ }
+
+ .info-info-side{
+ 	font-size: 10px;
+ }
+
+ .post-image .img2{
+ 	width: 80%;
+ 	height: 150px;
+ 	margin-left: 10%;
+ }
+
+ .title-side{
+ 	font-size: 	20px;
+ }
+.title-side2{
+ 	font-size: 	15px;
+ }
+ .newsletter{
+ 	margin-top: 50px;
+ }
+
+ .footer {
+ 	background-color: black;
+ 	margin-top: 30px;
+ }
+
+ #about{
+ 	font-size: 30px;
+ 	margin-top: 20px;
+ 	color: white;
+ }
+
+ .footer-text{
+ 	padding: 20px;
+ 	margin-top: 20px;
+ 	font-size: 15px;
+ 	color: white;
+
+ }
+
+
+
+.icon{
+	height: 60px;
+	width: 60px;
+	font-size: 40px;
+	color: white;
+	border: 2px white solid;
+	margin: 5px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.newsletters{
+	padding: 10px;
+}
+.post-figure{
+	color: white;
+}
+
+.img-info{
+	height: 30px;
+	width: 30px;
+	border-radius: 5px;
+}
+
+
+
+@media only screen and (max-width: 520px){
+	.post-image .img2{
+ 	width: 80%;
+ 	height: 100px;
+ 	margin-left: 10%;
+ }
+ .info-info-side{
+ 	font-size: 6px;
+ 	justify-content: center;
+
+ }
+.title-side2{
+ 	font-size: 10px;
+ }
+ .post-image .img{
+ 	width: 100%;
+ 	height: 150px;
+ 	border-radius: 20px;
+ 	margin-top: 30px;
+ }
+ .info-info{
+ 	font-size: 10px;
+ }
+ #footer-footer-end{
+ 	font-size: 10px;
+ }
+ .some-text{
+ 	font-size: 7px;
+ 	display: block;
+ 	width: 100%;
+ }
+ .info-info{
+ 	font-size: 8px; 
+ }
+ 
+}
